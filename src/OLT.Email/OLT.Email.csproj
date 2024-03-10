@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+		<TargetFrameworks>net8.0;net7.0;net6.0;netstandard2.0</TargetFrameworks>
+    <Description>SMTP builder with whitelist for non-production environments</Description>
+    <ProjectGuid>98759DA5-5EC5-4090-B8CE-BCE55737FE8F</ProjectGuid>
+		<Nullable>enable</Nullable>
+		<LangVersion>Latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="OLT.Core.Common" Version="8.0.0" />
+  </ItemGroup>
+</Project>
